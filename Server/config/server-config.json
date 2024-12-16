@@ -1,0 +1,57 @@
+{
+    "scenes": {
+        "menu": {
+            "entities": [
+            ]
+        },
+        "level_1": {
+            "entities": [
+                {
+                    "type": "brain_mob_spawner"
+                },
+                {
+                    "type": "brain_mob_spawner"
+                },
+                {
+                    "type": "screen_walls"
+                },
+                {
+                    "type": "brain_seahorse_boss",
+                    "next_level": "level_2",
+                    "timer": 30.0,
+                    "hp": 100
+                }
+            ],
+            "remove_components": [
+                "Enemy",
+                "Bullet",
+                "EnemySpawner"
+            ]
+        },
+        "level_2": {
+            "entities": [
+                {
+                    "type": "rolling_mob_spawner"
+                },
+                {
+                    "type": "rolling_mob_spawner"
+                },
+                {
+                    "type": "rolling_mob_spawner"
+                },
+                {
+                    "type": "rolling_mob_spawner"
+                },
+                {
+                    "type": "rolling_mob_spawner"
+                },
+                {
+                    "type": "brain_mob_spawner"
+                }
+            ],
+            "remove_components": [
+                "Bullet"
+            ]
+        }
+    }
+}

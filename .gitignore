@@ -1,0 +1,15 @@
+.vscode
+.idea
+/build
+Test
+*.o
+*.zip
+*.exe
+*.dll
+r-type_*
+/assets
+/config
+/scripts
+/mods
+cmake-build-debug
+compile_commands.json

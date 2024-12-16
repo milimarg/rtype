@@ -1,0 +1,8 @@
+build/
+*.o
+r-type_server
+*.zip
+Release
+__pycache__
+example*
+minigzip*

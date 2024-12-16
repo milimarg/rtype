@@ -1,0 +1,90 @@
+{
+    "scenes": {
+        "setup": {
+            "entities": [
+                {
+                    "type": "music player",
+                    "music_id": "battle against a true hero",
+                    "url": "assets/audio/battle_against_a_true_hero.ogg"
+                },
+                { "type": "player data" },
+                { "type": "undyne" },
+                { "type": "texts" },
+                { "type": "mouse" }
+            ],
+            "remove_components": [
+            ]
+        },
+        "action menu": {
+            "entities": [
+                {
+                    "type": "action buttons",
+                    "list": [
+                        {
+                            "id": "fight",
+                            "pos": {
+                                "x": 260.0,
+                                "y": 900.0
+                            }
+                        },
+                        {
+                            "id": "act",
+                            "pos": {
+                                "x": 625.0,
+                                "y": 900.0
+                            }
+                        },
+                        {
+                            "id": "item",
+                            "pos": {
+                                "x": 1005.0,
+                                "y": 900.0
+                            }
+                        },
+                        {
+                            "id": "mercy",
+                            "pos": {
+                                "x": 1370.0,
+                                "y": 900.0
+                            }
+                        }
+                    ]
+                },
+                { "type": "action rectangle" },
+                { "type": "mouse" }
+            ],
+            "remove_components": [
+                "ActionMenuRemovable"
+            ]
+        },
+        "attack": {
+            "entities": [
+                { "type": "attack slider" },
+                { "type": "mouse" }
+            ],
+            "remove_components": [
+                "AttackRemovable"
+            ]
+        },
+        "fight": {
+            "entities": [
+                { "type": "arrow spawners" },
+                { "type": "pad square" },
+                { "type": "pad" },
+                { "type": "mouse" }
+            ],
+            "remove_components": [
+                "FightRemovable"
+            ]
+        },
+        "game over": {
+            "entities": [
+                { "type": "game over message"},
+                { "type": "mouse" }
+            ],
+            "remove_components": [
+                "TimerContainer"
+            ]
+        }
+    }
+}

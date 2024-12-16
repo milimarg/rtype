@@ -1,0 +1,8 @@
+build/
+*.o
+r-type_client
+*.zip
+.vscode
+Release
+example*
+minigzip*

@@ -1,0 +1,6 @@
+build/
+*.o
+my_hunter
+*.zip
+.vscode
+Release

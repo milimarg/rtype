@@ -1,0 +1,9 @@
+.idea
+.vscode
+build
+compile_commands.json
+GameEngine
+vgcore.*
+cmake-build-debug
+*.exe
+*.zip

@@ -1,0 +1,152 @@
+{
+    "scenes": {
+        "menu": {
+            "entities": [
+                {
+                    "type": "3Dcamera"
+                },
+                {
+                    "type": "starfield"
+                },
+                {
+                    "type": "mouse"
+                },
+                {
+                    "type": "menu_create_button"
+                },
+                {
+                    "type": "menu_join_button"
+                },
+                {
+                    "type": "leave_button"
+                },
+                {
+                    "type": "music",
+                    "music_id": "main_menu",
+                    "url": "assets/audio/title.mp3"
+                },
+                {
+                    "type": "admin_panel_button",
+                    "id": 42,
+                    "password": "MIAOU"
+                }
+            ],
+            "remove_components": [
+                "CameraWrapper",
+                "Drawable",
+                "MusicSource"
+            ]
+        },
+        "menu_admin_panel": {
+            "entities": [
+                {
+                    "type": "admin_panel_elems"
+                },
+                {
+                    "type": "leave_button"
+                }
+            ],
+            "remove_components": [
+                "Button",
+                "Text"
+            ]
+        },
+        "menu_create": {
+            "entities": [
+                {
+                    "type": "menu_create_button"
+                },
+                {
+                    "type": "menu_difficulty_button"
+                },
+                {
+                    "type": "menu_friendly_fire_button"
+                },
+                {
+                    "type": "menu_input_remap_button"
+                },
+                {
+                    "type": "leave_button"
+                }
+            ],
+            "remove_components": [
+                "Button",
+                "Text"
+            ]
+        },
+        "menu_join": {
+            "entities": [
+                {
+                    "type": "menu_join_elements"
+                },
+                {
+                    "type": "menu_input_remap_button"
+                },
+                {
+                    "type": "leave_button"
+                }
+            ],
+            "remove_components": [
+                "Button",
+                "Text"
+            ]
+        },
+        "menu_input_remap": {
+            "entities": [
+                {
+                    "type": "menu_input_remap_elements"
+                },
+                {
+                    "type": "leave_button"
+                }
+            ],
+            "remove_components": [
+                "Button",
+                "Text"
+            ]
+        },
+        "level_1": {
+            "entities": [
+                {
+                    "type": "starfield"
+                },
+                {
+                    "type": "music",
+                    "music_id": "stage_1",
+                    "url": "assets/audio/stage_1.mp3"
+                },
+                {
+                    "type": "leave_button"
+                }
+            ],
+            "remove_components": [
+                "StarField",
+                "Button",
+                "MusicSource",
+                "Text"
+            ]
+        },
+        "level_2": {
+            "entities": [
+                {
+                    "type": "dense_starfield"
+                },
+                {
+                    "type": "music",
+                    "music_id": "stage_2",
+                    "url": "assets/audio/stage_2.mp3"
+                },
+                {
+                    "type": "leave_button"
+                }
+
+            ],
+            "remove_components": [
+                "StarField",
+                "MusicSource",
+                "Button",
+                "Text"
+            ]
+        }
+    }
+}
